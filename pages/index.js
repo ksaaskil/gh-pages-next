@@ -1,7 +1,7 @@
 import Link from 'next/link'
 export default () => (
   <div>
-    Hello World.{' '}
+    My static Next.js site!{' '}
     <Link href='/about' as={process.env.BACKEND_URL + '/about'}>
       <a>About</a>
     </Link>
